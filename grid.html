@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid Assignment</title>
+</head>
+<style>
+    
+  /*Styling the grid template*/
+    * {
+        margin: 0;
+        padding: 0;
+     }
+    body {
+        background-color: darkblue;
+        display: flex;
+        place-items: center;
+        height: 100vh;
+        min-width: 100%;
+    }
+    main {
+        display: grid;
+        grid-template-areas:
+        'a a b'
+        'c d d'
+        'c e e'
+        ;
+        
+        
+        border-radius: 5px;
+        gap:10px;
+        width: 50%;
+        margin:auto;
+
+
+        }
+
+    main div{
+        padding: 2em;
+        text-align: center;
+        border-radius: 5px;
+    }
+    .item-a {
+        background-color:#c7570c ;
+        grid-area: a;
+
+    }
+    .item-b {
+        background-color: rgb(187, 125, 10) ;
+        grid-area: b;
+
+    }
+    .item-c {
+        background-color:rgb(5, 122, 5);
+        grid-area:c ;
+
+    }
+    .item-d {
+        background-color: rgb(0, 204, 255);
+        grid-area: d ;
+
+    }
+    .item-e {
+        background-color:rgb(0, 204, 255) ;
+        grid-area: e;
+
+    }
+</style>
+<body>
+    <main>
+        <div class="item-a">A</div>
+        <div class="item-b">B</div>
+        <div class="item-c">C</div>
+        <div class="item-d">D</div>
+        <div class="item-e">E</div>
+    </main>
+
+    
+</body>
+</html>

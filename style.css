@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color:  hsl(0, 0%, 95%);
+}
+main{
+    width: 50%;
+    margin: auto;
+    padding:auto ;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 100vh;
+    font-family:'Lexend deca' sans-serif;
+    font-weight: 400;
+
+
+}
+.up-content {
+    background-color:hsl(31, 77%, 52%);
+    padding: 2em;
+}
+.up-content h2 {
+    color:  hsl(0, 0%, 95%);
+    font-size: 15px;
+    padding-bottom: 20px;
+    font-family:'Lexend Deca', sans-serif;
+    font-weight: 400;
+ 
+}
+.up-content img{
+    padding-bottom: 16px;
+    padding-right: 10px;
+   
+}
+.up-content p{
+    font-weight: 400;
+    color:  hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    padding-bottom: 50px;
+    font-family:'Lexend Deca' sans-serif;
+}
+.up-content button {
+    font-family:'Lexend Deca' sans-serif;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: hsl(0, 0%, 95%);
+    color: hsl(31, 77%, 52%);;
+    font-weight: 400;
+}
+.mid-content {
+    background-color: hsl(184, 100%, 22%);
+    padding: 2em;
+}
+.mid-content img{
+    padding-bottom: 16px;
+    padding-right: 10px;
+   
+}
+.mid-content h2 {
+    color:  hsl(0, 0%, 95%);
+    font-size: 15px;
+    padding-bottom: 20px;
+    font-family:'Lexend Deca' sans-serif;
+    font-weight: 400;
+}
+.mid-content p{
+    font-family:'Lexend deca' sans-serif;
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    padding-bottom: 50px;
+}
+.mid-content button{
+    font-family: 'Lexend Deca' sans-serif;
+    font-weight: 400;
+    padding: 10px;
+    border-radius: 10px;
+    border-color:hsl(0, 0%, 95%);
+    color: hsl(184, 100%, 22%);
+}
+.dwn-content {
+    background-color:  hsl(179, 100%, 13%);
+    padding: 2em;
+    font-family: 'Lexend Deca' sans-serif;
+    font-weight: 400;
+}
+.dwn-content img{
+    padding-bottom: 16px;
+    padding-right: 10px;
+   
+}
+.dwn-content h2 {
+    color:  hsl(0, 0%, 95%);
+    font-size: 15px;
+    padding-bottom: 20px;
+    font-family: 'Lexend Deca' sans-serif;
+    font-weight: 400;
+ 
+}
+.dwn-content p{
+    font-weight: 400;
+    color:  hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    padding-bottom: 50px;
+    font-family:'Lexend Deca' sans-serif;
+}
+.dwn-content button{
+    padding: 10px;
+    border-radius: 10px;
+    border-color: hsl(0, 0%, 95%);
+    color:  hsl(179, 100%, 13%);
+    font-family: 'Lexend Deca' sans-serif;
+    font-weight: 400;
+}
